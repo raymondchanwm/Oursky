@@ -17,7 +17,6 @@ bool isSubset (vector<string>seta,vector<string>setb)
     {
         while (setb[i] != seta[j])
         {
-            //cout<<i<<" "<<j<<"\n";
             if (j<seta.size()-1)
             {
                 j++;
@@ -27,7 +26,6 @@ bool isSubset (vector<string>seta,vector<string>setb)
                 return false;
             }
         }
-        //cout<<setb[i]<<" "<<seta[j]<<"\n";
     };
     return true;
 }
