@@ -48,8 +48,6 @@ void LRUCache::printkey()
     for (auto i = ca.begin(); i != ca.end(); 
          i++) 
             cout << (*i) << " "; 
-         
-  
     cout << endl; 
 } 
 
